@@ -9,24 +9,33 @@ body {
     flex-direction: column;
 }
 
-  main {
-    /* for sticky footer */
-    flex: 1 0 auto;
-  } 
-  
-  #intro{
-    /* rgb(49, 51, 79) =  #31334F*/
-    /* background-color:rgba(49, 51, 79, 0.4);  */
-
-  }
-      
+main {
+  /* for sticky footer */
+  flex: 1 0 auto;
+} 
+        
 #secondParallax {
     height: 300px;
   }
 
-  .page-footer {
-    background-color: #222330;
-  }
+.page-footer {
+  background-color: #222330;
+}
+
+#callingCard {
+  background-color: #222330;
+  margin-top: 10px;
+}
+
+#callingCard img {
+  padding: 15px 5px 5px 5px;
+  /* height: 250px;
+  width: auto; */
+}
+
+#callingCard p {
+  margin: 5px;
+}
 
 .card {
     background-color: #222330;
@@ -44,11 +53,11 @@ body {
 /* #about .card-image {
     overflow: hidden;
     max-width: 50%;
-    } */
+    }
 #about .card-image img {
 height: auto;
 width: 100%
-}    
+}     */
 /* end of for a rsponsive card */
 
 
@@ -97,12 +106,15 @@ a {
   @media (max-width: 1000px) {
   }
   @media (max-width: 800px) {
-      /* we need to make the card into a vertical card */
-      #about .card {
-          /* how to remove the horizontal class? */
-
-      }
+    #secondParallax {
+      height: 100px;
+    }
   }
   @media (max-width: 400px) {
 
 }
+
+    /* because I no longer want two items per row */
+    /* .imgcontainer:nth-child(even) {
+      margin-right: auto;
+  } */
