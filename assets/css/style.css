@@ -1,0 +1,108 @@
+body {
+    background-color: #31334F;
+    color: #ffffff;
+    font-family: 'Arimo', sans-serif;
+
+    /* for sticky footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+  main {
+    /* for sticky footer */
+    flex: 1 0 auto;
+  } 
+  
+  #intro{
+    /* rgb(49, 51, 79) =  #31334F*/
+    /* background-color:rgba(49, 51, 79, 0.4);  */
+
+  }
+      
+#secondParallax {
+    height: 300px;
+  }
+
+  .page-footer {
+    background-color: #222330;
+  }
+
+.card {
+    background-color: #222330;
+    /* background-color: #768EB5; */
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 10px;
+}
+
+#portfolio .card-image {
+    border: solid 3px #FFFFFF;
+}
+
+/* for a responsive card */
+/* #about .card-image {
+    overflow: hidden;
+    max-width: 50%;
+    } */
+#about .card-image img {
+height: auto;
+width: 100%
+}    
+/* end of for a rsponsive card */
+
+
+a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #DB99B9;
+}
+
+.tooltipped {
+    background-color: #222330;
+    color: #DB99B9;
+}
+
+.sidenav {
+    font-size: 20px;
+    background-color: #31334F;
+    color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+a {
+    color: #DB99B9;
+}
+
+
+.sidenav li>a {
+    font-size: 20px;
+    color: #DB99B9;
+}
+
+.sidenav .user-view .name, .sidenav .user-view .email {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.btn-floating {
+    background-color: #DB99B9;
+}
+
+
+@media (max-width: 1200px) {
+  }
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 800px) {
+      /* we need to make the card into a vertical card */
+      #about .card {
+          /* how to remove the horizontal class? */
+
+      }
+  }
+  @media (max-width: 400px) {
+
+}
