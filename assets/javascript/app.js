@@ -9,9 +9,4 @@ $(document).ready(function(){
     // a call to Materialize tool tip
     $('.tooltipped').tooltip();
 
-    $('#basicExample').justifiedGallery({
-        rowHeight : 250,
-        lastRow : 'nojustify',
-        margins : 3
-    });  
 });

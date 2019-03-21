@@ -61,13 +61,15 @@ width: 100%
 /* end of for a rsponsive card */
 
 
+/* I'm not sure what this means, I grabbed it from Chrome Inspector */
 a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: #DB99B9;
 }
 
-.tooltipped {
-    background-color: #222330;
-    color: #DB99B9;
+/* this is for the tool tip */
+.material-tooltip {
+  background-color: #222330;
+  color: #DB99B9;
 }
 
 .sidenav {
