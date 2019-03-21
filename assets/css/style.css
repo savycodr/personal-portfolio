@@ -45,10 +45,24 @@ main {
     margin: 10px;
 }
 
+.card .card-action{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#callingCard img {
+  width: 280px;
+  height: auto;
+}
+
 #portfolio .card-image {
     border: solid 3px #FFFFFF;
 }
 
+#portfolio .card-image {
+  width: 350px;
+  height: auto;
+}
 /* for a responsive card */
 /* #about .card-image {
     overflow: hidden;

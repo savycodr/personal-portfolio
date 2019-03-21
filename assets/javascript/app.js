@@ -8,5 +8,7 @@ $(document).ready(function(){
     $('.tap-target').tapTarget();
     // a call to Materialize tool tip
     $('.tooltipped').tooltip();
+    // a call to Materialize materialbox
+    $('.materialboxed').materialbox();
 
 });
