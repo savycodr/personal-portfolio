@@ -10,5 +10,4 @@ $(document).ready(function(){
     $('.tooltipped').tooltip();
     // a call to Materialize materialbox
     $('.materialboxed').materialbox();
-
 });

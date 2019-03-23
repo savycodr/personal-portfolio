@@ -20,6 +20,7 @@ main {
 
 .page-footer {
   background-color: #222330;
+  padding-bottom: 15px;
 }
 
 #callingCard {
@@ -61,25 +62,15 @@ main {
 
 #portfolio .card-image {
     border: solid 3px #FFFFFF;
+    /* border: solid 3px #768EB5; */
 }
 
 #portfolio .card-image {
   width: 350px;
   height: auto;
 }
-/* for a responsive card */
-/* #about .card-image {
-    overflow: hidden;
-    max-width: 50%;
-    }
-#about .card-image img {
-height: auto;
-width: 100%
-}     */
-/* end of for a rsponsive card */
 
-
-/* I'm not sure what this means, I grabbed it from Chrome Inspector */
+/* Grabbed this from Chrome Inspector */
 a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: #DB99B9;
 }
