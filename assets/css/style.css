@@ -2,6 +2,7 @@ body {
     background-color: #31334F;
     color: #ffffff;
     font-family: 'Arimo', sans-serif;
+    font-size: 25px;
 
     /* for sticky footer */
     display: flex;
@@ -82,14 +83,12 @@ a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
 }
 
 .sidenav {
-    font-size: 20px;
     background-color: #31334F;
     color: #ffffff;
 }
 
 p {
-    font-size: 20px;
-    line-height: 1.5em;
+  line-height: 1.5em;
 }
 
 a {
@@ -98,13 +97,11 @@ a {
 
 
 .sidenav li>a {
-    font-size: 20px;
-    color: #DB99B9;
+  color: #DB99B9;
 }
 
 .sidenav .user-view .name, .sidenav .user-view .email {
-    font-size: 20px;
-    line-height: 24px;
+  line-height: 24px;
 }
 
 .btn-floating {
@@ -117,6 +114,10 @@ a {
   @media (max-width: 1000px) {
   }
   @media (max-width: 800px) {
+    body {    
+      font-size: 20px;
+    }
+
     #secondParallax {
       height: 100px;
     }
