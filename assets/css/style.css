@@ -98,6 +98,7 @@ a {
 
 .sidenav li>a {
   color: #DB99B9;
+  font-size: 1.5em;
 }
 
 .sidenav .user-view .name, .sidenav .user-view .email {
