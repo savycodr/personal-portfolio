@@ -2,7 +2,7 @@ body {
     background-color: #31334F;
     color: #ffffff;
     font-family: 'Arimo', sans-serif;
-    font-size: 2em;
+    font-size: 25px;
 
     /* for sticky footer */
     display: flex;
@@ -22,7 +22,7 @@ main {
 .page-footer {
   background-color: #222330;
   padding-bottom: 15px;
-  font-size: .6em;
+  font-size: 15px;
 }
 
 #callingCard {
@@ -99,11 +99,12 @@ a {
 
 .sidenav li>a {
   color: #DB99B9;
-  font-size: 1.5em;
+  font-size: 25px;
 }
 
 .sidenav .user-view .name, .sidenav .user-view .email {
   line-height: 24px;
+  font-size: 25px;
 }
 
 .btn-floating {
@@ -113,14 +114,14 @@ a {
 
 @media (max-width: 1200px) {
   body {    
-    font-size: 2em;
+    font-size: 25px;
   }
 }
   @media (max-width: 1000px) {
   }
   @media (max-width: 800px) {
     body {    
-      font-size: 2em;
+      font-size: 20px;
     }
 
     #secondParallax {
