@@ -16,11 +16,6 @@ main {
   /* for sticky footer */
   flex: 1 0 auto;
 } 
-
-#firstParallax {
-  height: 825px;
-}
-
         
 #secondParallax {
     height: 300px;
@@ -130,11 +125,6 @@ a {
     body {    
       font-size: 20px;
     }
-
-    #firstParallax {
-      height: 500px;
-    }
-    
 
     #secondParallax {
       height: 100px;
