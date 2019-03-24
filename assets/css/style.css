@@ -68,8 +68,8 @@ main {
 }
 
 #portfolio .card-image {
-  width: 350px;
-  height: auto;
+  /* width: 350px;
+  height: auto; */
 }
 
 /* Grabbed this from Chrome Inspector */
