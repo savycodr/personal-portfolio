@@ -10,8 +10,6 @@ body {
     flex-direction: column;
 }
 
-h2
-
 main {
   /* for sticky footer */
   flex: 1 0 auto;
