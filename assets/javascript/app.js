@@ -7,7 +7,7 @@ $(document).ready(function(){
         {
             // The minimum width of the screen, in pixels, where the parallax functionality starts working.
             // responsiveThreshold: 470
-            responsiveThreshold: 700
+            responsiveThreshold: 740
         });
     // a call to Materialize tap target
     $('.tap-target').tapTarget();

@@ -130,8 +130,8 @@ a {
       height: 100px;
     }
   }
-  @media (max-width: 700px) {
-    /* the javascript will turn off Parallax at 700*/
+  @media (max-width: 740px) {
+    /* the javascript will turn off Parallax at 740*/
     /* need to fix the image */
     #firstParallax {
       position: absolute;
@@ -156,6 +156,9 @@ a {
     }
 
   }
+
+  /* iPhone 6: 375px (portrait), 667px (landscape)
+  iPhone 6 Plus: 414 (portrait), 736px (landscape) */
 
   /* iphone 6 plus is 414px*/
   /* @media (max-width: 470px) { */
