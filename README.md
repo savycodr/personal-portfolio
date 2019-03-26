@@ -13,13 +13,14 @@ A portfolio to display my projects, resume, and contact information.
 
 * This webpage uses Materialize's CSS and javascript library.
 
+* The menu button is affixed to the top left corner. It remains visible as the user scrolls. It has some opacity so that the user can read through the button.
+
+* The webpage is media responsive and can be used on phones and tablets. The parallax is shut off for phones because the images do not scroll smoothly.
+
 * I used colormind.io to design the color scheme.
 
 * Utilizes a google font called Arimo by Steve Matteson.
 
-## Future Enhancements
-
-* I would like to affix the menu to the top right corner as the page scrolls. Currently, the user must go to the top of the page to find the menu button.
 
 
 

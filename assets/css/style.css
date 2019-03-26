@@ -67,10 +67,11 @@ main {
     /* border: solid 3px #768EB5; */
 }
 
-#portfolio .card-image {
-  /* width: 350px;
-  height: auto; */
-}
+
+.fixed-action-btn{
+  left: 5px;/*desired value*/
+  top: 10px;
+  }
 
 /* Grabbed this from Chrome Inspector */
 a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
@@ -109,6 +110,7 @@ a {
 
 .btn-floating {
     background-color: #DB99B9;
+    opacity: 0.8;
 }
 
 
@@ -129,6 +131,33 @@ a {
     }
   }
   @media (max-width: 400px) {
+
+    /* the javascript will turn off Parallax at 400*/
+    /* need to fix the image */
+    #firstParallax {
+      position: relative;
+      position: absolute;
+      top:-120px;
+    }    
+
+
+    #firstParallax img{
+      max-width: 100%;
+      height: auto;
+    }    
+    
+    #secondParallax {
+      position: relative;
+      height: 100px;
+    }
+
+    #secondParallax img {
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      top:-120px;
+    }
+
 
 }
 
