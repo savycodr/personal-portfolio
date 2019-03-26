@@ -69,9 +69,17 @@ main {
 
 
 .fixed-action-btn{
-  left: 5px;/*desired value*/
-  top: 10px;
+/*desired value*/
+left: 5px;
+  /* left: 5px;
+  top: 10px; */
   }
+
+  .btn-floating {
+    background-color: #DB99B9;
+    opacity: 0.8;
+}
+
 
 /* Grabbed this from Chrome Inspector */
 a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
@@ -108,19 +116,12 @@ a {
   font-size: 25px;
 }
 
-.btn-floating {
-    background-color: #DB99B9;
-    opacity: 0.8;
-}
-
 
 @media (max-width: 1200px) {
   body {    
     font-size: 25px;
   }
 }
-  @media (max-width: 1000px) {
-  }
   @media (max-width: 800px) {
     body {    
       font-size: 20px;
@@ -130,6 +131,7 @@ a {
       height: 100px;
     }
   }
+
   @media (max-width: 740px) {
     /* the javascript will turn off Parallax at 740*/
     /* need to fix the image */
@@ -152,10 +154,10 @@ a {
       max-width: 100%;
       height: auto;
       position: absolute;
-      top:-180px;
+      top:-185px;
     }
 
-  }
+  } 
 
   /* iPhone 6: 375px (portrait), 667px (landscape)
   iPhone 6 Plus: 414 (portrait), 736px (landscape) */
@@ -166,7 +168,7 @@ a {
 
     /* the javascript will turn off Parallax at 700*/
     /* need to fix the image */
-    #firstParallax {
+     #firstParallax {
       position: absolute;
       top: -120px;
     }    
@@ -187,7 +189,6 @@ a {
       position: absolute;
       top:-120px;
     }
-
 
 }
 
