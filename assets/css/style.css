@@ -130,7 +130,8 @@ a {
       height: 100px;
     }
   }
-  @media (max-width: 400px) {
+  /* iphone 6 plus is 414px*/
+  @media (max-width: 450px) {
 
     /* the javascript will turn off Parallax at 400*/
     /* need to fix the image */
