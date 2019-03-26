@@ -130,18 +130,43 @@ a {
       height: 100px;
     }
   }
-  /* iphone 6 plus is 414px*/
-  /* @media (max-width: 470px) { */
-    @media (max-width: 700px) {
-
-    /* the javascript will turn off Parallax at 400*/
+  @media (max-width: 700px) {
+    /* the javascript will turn off Parallax at 700*/
     /* need to fix the image */
     #firstParallax {
-      position: relative;
       position: absolute;
-      top:-120px;
+      top: -120px;
     }    
 
+    #firstParallax img{
+      max-width: 100%;
+      height: auto;
+    }    
+    
+    #secondParallax {
+      position: relative;
+      height: 120px;
+    }
+
+    #secondParallax img {
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      top:-180px;
+    }
+
+  }
+
+  /* iphone 6 plus is 414px*/
+  /* @media (max-width: 470px) { */
+    @media (max-width: 520px) {
+
+    /* the javascript will turn off Parallax at 700*/
+    /* need to fix the image */
+    #firstParallax {
+      position: absolute;
+      top: -120px;
+    }    
 
     #firstParallax img{
       max-width: 100%;
