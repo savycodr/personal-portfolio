@@ -92,6 +92,11 @@ a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   color: #DB99B9;
 }
 
+/* #callingCard .material-tooltip {
+  background-color: #31334F;
+  color: #DB99B9;
+} */
+
 .sidenav {
     background-color: #31334F;
     color: #ffffff;
