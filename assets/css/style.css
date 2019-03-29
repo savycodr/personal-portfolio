@@ -105,14 +105,18 @@ a {
     color: #DB99B9;
 }
 
+.sidenav li {
+  margin-top: 10px;
+}
+
 
 .sidenav li>a {
   color: #DB99B9;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .sidenav .user-view .name, .sidenav .user-view .email {
-  line-height: 24px;
+  line-height: 30px;
   font-size: 25px;
 }
 
